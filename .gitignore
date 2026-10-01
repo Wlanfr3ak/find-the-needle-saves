@@ -1,0 +1,35 @@
+# --- Secrets / local configuration ---
+.env
+.env.*
+!.env.example
+config.json
+*.local.json
+secrets.json
+
+# --- Runtime data (never commit backups or savegames) ---
+vault/
+sync/
+backups/
+*.dat
+*.dat.bak
+*.sav
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# --- PyInstaller ---
+build/
+dist/
+*.spec.bak
+
+# --- OS / editor ---
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/

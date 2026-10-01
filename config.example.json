@@ -1,0 +1,12 @@
+{
+  "game_data_dir": "",
+  "vault_dir": "",
+  "sync_dir": "",
+  "language": "en",
+  "auto_backup": true,
+  "auto_backup_interval_seconds": 20,
+  "auto_sync_on_start": false,
+  "include_logs_in_snapshots": false,
+  "restore_include_settings": false,
+  "redact_identity_tokens_in_sync": true
+}
